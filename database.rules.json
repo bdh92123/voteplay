@@ -1,0 +1,13 @@
+{
+  "rules": {
+    ".read": "true",
+    "user-votes": {
+      "$user_id": {
+        ".write": "$user_id === auth.uid"
+      }
+    },
+    "votes": {
+      ".write": "auth != null"
+    }
+  }
+}
