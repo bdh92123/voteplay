@@ -2,6 +2,8 @@
 
 This is a simple firebase web application that users can vote.
 
+Website: https://voteplay-5a588.firebaseapp.com
+
 ### Using
 
 - Firebase 4
